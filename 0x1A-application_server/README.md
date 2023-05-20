@@ -2,10 +2,6 @@
 
 ![](https://cdn.educba.com/academy/wp-content/uploads/2019/04/What-is-Application-Server-1.1.png)
 
-Your web infrastructure is already serving web pages via Nginx that you installed in [your first web stack project](https://github.com/sammykingx/alx-system_engineering-devops/tree/master/0x0C-web_server). While a web server can also serve dynamic content, this task is usually given to an application server. In this project you will add this piece to your infrastructure, plug it to your __Nginx__ and make is serve your __Airbnb clone project.__
-
-## Project Requirements
-
 - A README.md file, at the root of the folder of the project, is mandatory
 - Everything Python-related must be done using `python3`
 - All config files must have comments
@@ -40,7 +36,7 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:5000
  * Running on http://10.247.26.30:5000
 Press CTRL+C to quit
-127.0.0.1 - - [10/Feb/2023 21:00:05] "GET /airbnb-onepage HTTP/1.1" 200 -
+127.0.0.1 - -  "GET /airbnb-onepage HTTP/1.1" 200 -
 
 ```
 __After Fixing__
